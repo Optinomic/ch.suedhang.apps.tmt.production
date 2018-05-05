@@ -19,7 +19,7 @@ website = http://suedhang.ch/de/Forschung
 
 [template TMT 6 12]
 __opapp_include(lib/polymer/index.m4)
-__opapp_include(../ch.suedhang.apps.tmt_V3/elements/element-tmt.html)
+__opapp_include(ch.suedhang.apps.tmt_V3/elements/element-tmt.html)
 __opapp_include(elements/view.html)
 
 [readme]
