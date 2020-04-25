@@ -7,6 +7,7 @@ version = __opapp_version()
 type = patient
 
 [description]
+Mit dem TMT wird die Fähigkeit zum visuellen Scannen, die psychomotorische Geschwindigkeit (TMT A) sowie die Leistungen der exekutiven Funktionen, insbesondere kognitive Flexibilität und Switching (TMT B) erfasst.
 
 [developer]
 first_name = Nora
@@ -17,10 +18,6 @@ company = Suedhang
 phone = +41 (0)31 828 14 92
 website = http://suedhang.ch/de/Forschung
 
-[template TMT 6 12]
-__opapp_include(lib/polymer/index.m4)
-__opapp_include(ch.suedhang.apps.tmt_V3/elements/element-tmt.html)
-__opapp_include(elements/view.html)
 
 [readme]
 __opapp_include(readme.md)
